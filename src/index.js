@@ -61,7 +61,7 @@ class App extends React.Component {
 
   render() {
     console.log("Rendering started");
-    const { selectedOption } = this.state.value;
+    const selectedOption  = this.state.value;
 
     return (
       <div className="App">
