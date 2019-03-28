@@ -50,8 +50,13 @@ class App extends React.Component {
   };
 
   onChange = e => {
-    const value = e.currentTarget.value;
+    alert("on change" + e);
+    
+    const value = e.target.value;
+
+    alert("value"+ value);
     this.setState({ value });
+
     if (value) {
       this.props.sdk.field.setValue(value);
     } else {
