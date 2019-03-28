@@ -1,0 +1,8 @@
+{
+  "id": "integration-auto-complete",
+  "name": "integration-auto-complete",
+  "srcdoc": "./build/index.html",
+  "fieldTypes": [
+    "Object"
+  ]
+}
